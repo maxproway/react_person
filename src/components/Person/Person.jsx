@@ -7,7 +7,6 @@ export const Person = ({ person }) => {
       {person.age && <p className="Person__age">I am {person.age}</p>}
 
       <p className="Person__partner">
-        {}
         {person.isMarried
           ? `${person.partnerName} is my ${personPartnerType}`
           : 'I am not married'}
